@@ -101,7 +101,7 @@ sum(which(table(tvseries2$Series.Title) > 1))
 ```
 The new IMDB TV data set has shrunk to 9,644 unique observations.
 
-**Note**: The duplicate() function keeps the first instance of a record and removed the rest, which is why *His Dark Materials* rating of 9.7 was dropped. The first instance for this show had a rating of 7.8
+**Note**: The duplicate() function keept the first instance of a record and removed the rest, which is why *His Dark Materials* rating of 9.7 was dropped. The first instance for this show had a rating of 7.8
 
 
 ## 2.3 String Extraction and Data Type Transformations of 'Release.Year', 'Runtime' and 'Rating'
